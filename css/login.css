@@ -1,0 +1,152 @@
+/* Navigation Bar Styling */
+.navbar { 
+    background-color: #0f144d; 
+    overflow: hidden; 
+} 
+
+.navbar a { 
+    float: left; 
+    display: block; 
+    color: #fff; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 17px; 
+} 
+
+.navbar a:hover { 
+    background-color: #000000; 
+    font-weight: bold;
+    transition: 0.5s;
+} 
+
+.navbar a .icon { 
+    margin-right: 8px; 
+    font-weight: bold;
+    transition: 0.5s;
+} 
+
+.navbar a.icon { 
+    float: right; 
+    display: none; 
+} 
+
+.navbar.responsive a.icon { 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+} 
+
+.navbar.responsive a { 
+    float: none; 
+    display: block; 
+    text-align: left; 
+}  
+
+/* Login Body Section Styling */
+div.loginBody {
+    background: url('../img/snake2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Ensure consistent font styling */
+    padding: 20px; /* Add padding for spacing */
+    min-height: 100vh; /* Ensure the section covers full viewport height */
+}
+
+/* Login Header Styling */
+div.loginHeader {
+    text-align: center; /* Center-align header content */
+    margin-bottom: 60px; /* Spacing below header */
+}
+
+div.loginHeader h1 {
+    font-size: 60px; /* Adjusted font size */
+    font-weight: bold;
+    color: #ffffff;
+    padding: 8px;
+    margin: 0;
+}
+
+div.loginHeader p {
+    color: #ffffff;
+    font-size: 24px; /* Adjusted font size */
+    margin: 0;
+    display: inline-block;
+}
+
+/* Add a decorative line below the paragraph */
+div.loginHeader p:after {
+    content: '';
+    display: block;
+    height: 5px;
+    background: #7eaad7;
+    margin: 0 auto;
+}
+
+/* Login Form Styling */
+div.loginForm {
+    margin: 0 auto; /* Center-align form horizontally */
+    width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+/* Input Container Styling */
+div.loginInputsContainer {
+    margin-top: 20px; /* Adjusted spacing */
+}
+
+div.loginInputsContainer label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+div.loginInputsContainer input {
+    height: 25px;
+    width: 100%;
+    border: 2px solid #d40339;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+div.loginInputsContainer input:hover { 
+    background-color: #a1cbe7; 
+    font-weight: bold;
+    transition: 0.5s;
+} 
+
+/* Button Container Styling */
+div.loginButtonContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.loginButtonContainer #login,
+div.loginButtonContainer #reset {
+    font-size: 20px;
+    padding: 5px 30px;
+    background: #a1cbe7; 
+    border: none; /* Remove border from buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    color: #fff; /* Text color for buttons */
+}
+
+div.loginButtonContainer #login:hover,
+div.loginButtonContainer #reset:hover { 
+    background-color: #ffffff; 
+    color: #000; /* Change text color on hover */
+    font-weight: bold;
+    transition: 0.5s;
+} 
+
+/* Error Message Styling */
+span {
+    color: #d40339;
+    font-size: 20px;
+}

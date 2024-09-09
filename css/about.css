@@ -1,0 +1,54 @@
+.navbar { 
+    background-color: #0f144d; 
+    overflow: hidden; 
+    
+} 
+.navbar a { 
+    float: left; 
+    display: block; 
+    color: #fff; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 17px; 
+} 
+.navbar a:hover { 
+    background-color: #000000; 
+    font-weight: bold;
+    transition: 0.5s;
+} 
+
+.navbar a .icon { 
+    margin-right: 8px; 
+    font-weight: bold;
+    transition: 0.5s;
+} 
+
+.navbar a.icon { 
+    float: right; 
+    display: none; 
+} 
+
+.navbar.responsive a.icon { 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+} 
+
+.navbar.responsive a { 
+    float: none; 
+    display: block; 
+    text-align: left; 
+}  
+div.abody{
+    background: url('../img/snake1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 5cqi;
+    padding-bottom: 80px;
+    height: 70vh;
+}
+body.abody{
+    margin-top: 20px;
+    font-size: 30px;
+    color: brown;
+}
