@@ -150,3 +150,54 @@ span {
     color: #d40339;
     font-size: 20px;
 }
+/* Responsive adjustments for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around; /* Ensures icons are spaced evenly */
+        flex-wrap: nowrap; /* Prevent wrapping of icons */
+        align-items: center;
+        padding: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    
+    .navbar a {
+        flex: none; /* Prevent flex items from growing */
+        text-align: center;
+    }
+    
+    /* .navbar a {
+        float: none;
+        text-align: center;
+        display: block;
+    } */
+    
+    div.loginForm {
+        width: 90%; /* Make the form width responsive */
+        padding: 20px;
+    }
+
+    div.loginHeader h1 {
+        font-size: 40px; /* Smaller font size for mobile screens */
+    }
+
+    div.loginHeader p {
+        font-size: 18px;
+    }
+}
+
+/* Responsive adjustments for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+    div.loginHeader h1 {
+        font-size: 30px;
+    }
+
+    div.loginInputsContainer label {
+        font-size: 16px;
+    }
+
+    div.loginInputsContainer input {
+        font-size: 16px;
+    }
+}
