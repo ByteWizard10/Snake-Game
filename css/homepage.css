@@ -279,3 +279,17 @@ div.footer a:hover{
     top:10px;
     
 }
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .navbar a { font-size: 15px; }
+    .bannerHeader h1 { font-size: 40px; }
+    .homeFeatures { flex-direction: column; }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    .navbar a { font-size: 12px; }
+    .bannerHeader h1 { font-size: 30px; }
+    .homeFeatures { flex-direction: column; }
+    .vedio iframe { width: 100%; height: auto; }
+}
